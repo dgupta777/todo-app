@@ -1,0 +1,42 @@
+@media (max-width: 600px) {
+  .site-header {
+    flex-wrap: wrap;
+  }
+
+  .site-header img {
+    width: 60%;
+  }
+
+  .contact {
+    visibility: hidden;
+  }
+}
+
+.site-header {
+  background: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-family: "Sintony", sans-serif;
+  font-size: 1.2em;
+}
+
+.contact {
+  margin-left: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-right: 10px;
+}
+
+.contact-details {
+  text-align: center;
+  margin-left: 10px;
+  font-size: 1em;
+  color: #c0a672;
+}
+
+.contact-details a {
+  text-decoration: none;
+  color: #c0a672;
+  line-height: 1.1;
+}

@@ -2,3 +2,18 @@
 .hover-cursor{
   cursor: pointer;
 }
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  color: #555;
+  font-family: "Shadows Into Light", cursive;
+  text-rendering: optimizeLegibility;
+  height: 100vh;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
